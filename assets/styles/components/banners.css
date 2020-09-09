@@ -1,7 +1,7 @@
 /* banner class */
 
-.banner {
-  background-image: url('../images/photo-banner.jpg');
+#banner {
+  background-image: url('../../images/photo-banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
