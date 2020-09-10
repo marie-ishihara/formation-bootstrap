@@ -72,11 +72,13 @@
     </div>
 
     <div class="position-absolute fixed-bottom">
-      <button type="button" class="btn d-block mx-auto btn-outline-light rounded-0">
-        Découvrir les projets
-      </button>
-    
-      <a href="#">
+      <a href="#projects" class="text-decoration-none">
+        <button type="button" class="btn d-block mx-auto btn-outline-light rounded-0">
+          Découvrir les projets
+        </button>
+      </a>
+      
+      <a href="#projects">
         <img src="assets/images/chevron.svg"
              width="30px"
              height="30px"
@@ -86,6 +88,63 @@
     </div>
   </div>
     <!-- End Banner -->
+
+    <!-- PROJECTS SECTION -->
+  <h2 class="text-center h3 text-secondary mb-4" id="projects">
+    Les projets en cours de collecte
+  </h2>
+  
+  <div class="d-flex flex-wrap w-75 m-auto">
+    <!-- Les petits philantropes card -->
+    <div class="card shadow mx-auto rounded-0 mb-5" style="width: 20rem; height: 26rem;">
+      <!-- Amount collected, photo & progress -->
+      <div class="position-relative">
+        <div class="card-header text-center bg-info rounded-0 position-absolute fixed-top">
+          <span class="font-weight-bold">Collecté :</span> 50,00€
+        </div>
+        <img src="assets/images/le_cercle_des_petits_philantropes.png"
+             class="card-img rounded-0"
+             alt="Le cercles des petits philantropes">
+        <div class="d-flex bg-secondary p-3 position-absolute fixed-bottom">
+          <div class="progress rounded-0 w-75 p-1 mx-auto"></div>
+          <div class="mt-n1 font-weight-bold">0%</div>
+        </div>
+      </div>
+      <!-- General informations -->
+      <div class="card-body text-center">
+        <h5 class="card-title text-uppercase">cercles des petits philanthropes</h5>
+        <p class="card-text text-secondary">
+          Ateliers d'initiation à la philanthropie pour les petits.
+        </p>
+        <p class="card-text text-secondary font-weight-bold">Objectif : 50 000,00 €</p>
+        <p class="card-text text-secondary">
+          En cours : <span class="font-weight-bold">44 jours restants</span>
+        </p>
+      </div>
+    </div>
+  
+    <!-- Zzz card -->
+    <div class="card shadow mx-auto rounded-0 mb-5" style="width: 20rem; height: 26rem;">
+      <!-- Amount collected & photo -->
+      <div class="position-relative">
+        <div class="card-header text-center bg-info rounded-0 position-absolute fixed-top">
+          <span class="font-weight-bold">Collecté :</span> 100,00€
+        </div>
+        <img src="assets/images/zzz.jpg" class="card-img rounded-0"
+          alt="Zzz photo de buildings">
+      </div>
+      <!-- General informations -->
+      <div class="card-body text-center">
+        <h5 class="card-title text-uppercase">zzz</h5>
+        <p class="card-text text-secondary">
+          ZZZPhasellus viverra nulla ut metus varius laoreet.
+        </p>
+        <p class="card-text text-secondary font-weight-bold">Collecte en cours</p>
+      </div>
+    </div>
+  
+  </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
